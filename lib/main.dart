@@ -1,10 +1,11 @@
-import 'package:bibliotec/routes/router.dart' as router;
-import 'package:bibliotec/locator.dart';
-import 'package:bibliotec/themes/theme.dart';
 import 'package:flutter/material.dart';
 
+import 'core/service_locator.dart';
+import 'routes.dart' as routes;
+import 'theme.dart';
+
 void main() {
-  setupLocator();
+  initServiceLocator();
   runApp(Bibliotec());
 }
 
@@ -13,11 +14,13 @@ class Bibliotec extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Bibliotec',
-      initialRoute: router.login,
-      onGenerateRoute: router.onGenerateRoute,
+      initialRoute: routes.login,
+      onGenerateRoute: routes.onGenerateRoute,
       theme: ThemeData(
-          primaryColor: Color(0xFF0A1362),
-          accentColor: Color(0xFF0A1362),
+        colorScheme: colorScheme,
+        primaryColor: colorScheme.primary,
+        accentColor: colorScheme.secondary,
+        backgroundColor: colorScheme.background,
         textTheme: textTheme,
         primaryTextTheme: textTheme,
         accentTextTheme: textTheme,
