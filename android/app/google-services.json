@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "299959641226",
+    "firebase_url": "https://bibliotec-18231.firebaseio.com",
+    "project_id": "bibliotec-18231",
+    "storage_bucket": "bibliotec-18231.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299959641226:android:bc5d7ce09258fe017d7973",
+        "android_client_info": {
+          "package_name": "com.example.bibliotec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299959641226-8vnrfeb6k64j6j41rsi322e0mduksj3h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj12qVLSpYS81wjsEZ9N3vUrTLAqNgHlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299959641226-8vnrfeb6k64j6j41rsi322e0mduksj3h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
