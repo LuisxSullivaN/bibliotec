@@ -10,21 +10,21 @@ Currently it cannot be run due to some errors caused by some broken code since i
 
 ## Screenshots
 
-[Login](./screenshots/login.jpg)
+![Login](./screenshots/login.jpg)
 
-[Sign up](./screenshots/sign_up.jpg)
+![Sign up](./screenshots/sign_up.jpg)
 
 Here you introduce your student data for signing up, its intention was that the university made use of this information for statistics.
 
-[Sign up failed](./screenshots/sign_up_failed.jpg)
+![Sign up failed](./screenshots/sign_up_failed.jpg)
 
 The intention here is that if you weren't a known student at the university you couldn't sign up due to lack of student credentials.
 
-[Home](./screenshots/home.jpg)
+![Home](./screenshots/home.jpg)
 
 Home screen, here you could select the genre of the book you are looking for.
 
-[Books](./screenshots/books.jpg)
+![Books](./screenshots/books.jpg)
 
 The actual view of the fetched books for the corresponding genre.
 
