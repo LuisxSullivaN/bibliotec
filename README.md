@@ -4,7 +4,7 @@
 
 Bibliotec was a school project which purpose was to have a practical way to search for books at the Instituto Tecnológico de Minatitlán library without the need of walking into it and search manually.
 
-The project concluded in a prototype version that has a login module with registration through firebase and could make api calls to a firebase database. It was made with zero previous knowledge about Flutter and Dart and I was the main developer.
+**The project concluded in a prototype version** that has a login module with registration through firebase and could make api calls to a firebase database with placeholder data. It was made with zero previous knowledge about Flutter and Dart and I was the main developer.
 
 Currently it cannot be run due to some errors caused by some broken code since it hasn't been updated and I'm not willing to fixing it at this moment.
 
